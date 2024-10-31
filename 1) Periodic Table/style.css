@@ -1,0 +1,75 @@
+* {
+    margin-left: 10px;
+}
+
+th {
+    font-family: Arial, "Trebuchet MS",cursive,verdana, helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: 25px;
+    color:chocolate;
+    color: rgb(247, 146, 160);
+    text-decoration:underline;
+}
+
+td {
+    /* border: 0.5px solid black; */
+    border-radius: 3px;
+    text-align: center;
+    padding: 14px 6px 14px 6px;
+    font-family: "Trebuchet MS",cursive,verdana, helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor:context-menu;
+}
+
+
+.noBorderBackground {
+    border: 0;
+    background-color: white;
+}
+
+.Blue {
+    color:rgb(103, 103, 248);
+    background-color: rgba(103, 103, 248, 0.2);
+}
+
+.DarkCyan {
+    color:darkcyan;
+    /* background-color: rgb(233, 250, 250); */
+    background-color: rgb(181, 248, 248);
+}
+
+.OrangeRed {
+    color: rgb(250, 39, 39);
+    background-color: rgb(253, 236, 224);  
+}
+
+.Coral {
+    color: coral;
+    background-color: rgb(252, 240, 236);
+}
+
+.LightCoral {
+    color: lightcoral;
+    background-color: rgb(255, 255, 243)
+}
+
+.BackgroundLightCyan {
+    background-color:rgb(228, 243, 255);
+}
+
+.BackgroundGreen {
+    background-color: rgb(209, 255, 229);
+    /* rgb(201, 255, 224); */
+}
+
+.BackgroundGray {
+    background-color: rgb(231, 231, 231);
+}
+
+span {
+    font-size: 12px;
+}
+
+

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    background-color: #b3b3b3;
+    width: 60vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input {
+    border-radius: 20px;
+    height: 30px;
+    width: 60%;
+    margin: 20px;
+    padding-left: 10px;
+} */
+
+.body {
+    background-color: rgb(249, 253, 253);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;  
+}
+
+.upper-body {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* padding-left: 5%; */
+}
+
+.left-part input, .right-part input, .right-part select {
+    border-radius: 5px;
+    /* height: 40px;
+    width: 60%; */
+    /* max-width: 80vw; */
+    height: 40px;
+    width: 30vw;
+    min-width: 280px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(158, 200, 74);
+    transition: 400ms;
+    font-family: sans-serif;
+    color: rgb(0, 110, 127);
+}
+
+.left-part input:focus, .right-part input:focus, .right-part select:focus {
+    outline: 0;
+    border: 1px solid rgb(123, 123, 225);
+    transition: 400ms
+}
+
+label {
+    color: rgb(123, 123, 225);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS';
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 250px;
+}
+
+.lower-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 100%;
+    
+}
+
+.lower-body input, .lower-body select {
+    border-radius: 5px;
+    /* height: 40px;
+    width: 60%; */
+    max-width: 80vw;
+    height: 40px;
+    /* width: 93.6%; */
+    width: 40px;
+    min-width: 83%;
+    /* max-width: 1250px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    border: 1px solid rgb(158, 200, 74);
+    transition: 400ms;
+    font-family: sans-serif;
+    color: rgb(0, 110, 127);
+}
